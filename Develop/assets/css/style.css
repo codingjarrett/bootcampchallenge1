@@ -1,13 +1,16 @@
+/* sets the entire page's height and width. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* sets the background color of the to a shade of white. */
 body {
     background-color: #d9dcd6;
 }
 
+/* sets the style; padding, fonts, background color and text color of the header. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,16 +18,19 @@ body {
     color: #ffffff;
 }
 
+/* sets the header in the inline-block display and sets the size of the font for the h1 header tag to 48 pixels. */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* sets the color of the letters seo in Horiseon to be a different color */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
-.header ul {
+/* adds padding of 15 pixels to the top and a 20 pixel margin to the right of the navigation links, aligns the links to the right of the page, sets the font family and the font size of the navigation links to 20 pixels and alters the listed links so that they do not appear in bullit form.  */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,20 +39,24 @@ body {
     list-style-type: none;
 }
 
-.header li {
+/* sets the navigation links in inline block display and adds a 25 pixel margin to them. */
+.header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* sets a different font color for nav links. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* sets the font size of everything in the <p> paragraph tag to 16 pixels. */
 p {
     font-size: 16px;
 }
 
+/* sets an image to be the cover of the page, giving it a height of 800 pixels and allowing it to span the entire page's width, setting the bottom margin to 25 pixels, linking in the image from a file, and setting its position to center. */
 .hero {
     height: 800px;
     width: 100%;
@@ -56,22 +66,26 @@ p {
     background-position: center;
 }
 
+/* positions the image to skew to the left of the page, adding a right margin of 25 pixels. */ 
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* positions the image to the right of the page, adding a 25 pixel margin to the left. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* sets content boxes to display in an inline block with a witdth that spans three quarters of the page and adds a 20 pixel margin to the left. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* sets a margin, padding, height, font, background and text colors to the content boxes. */
 .content article {
     margin-bottom: 20px;
     padding: 50px;
@@ -81,15 +95,18 @@ p {
     color: #ffffff;
 }
 
+/* sets the image size to 200 pixels within the content boxes. */
 .content article img {
     max-height: 200px;
 }
 
+/* sets a margin to the bottom of the content boxes and sets the font size for the h2 tag to 36 pixels. */
 .content article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* sets the styling for the benefits boxes to have a right margin of 20 pixels, 20 pixels of padding around them, aligning them to the right of the page, allowing them to expand to a fifth of the width of the page, while allowing them to stretch the length of the page. Also sets the font, margin, background and text colors for the boxes. */ 
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -103,17 +120,20 @@ p {
     color: #ffffff;
 }
 
+/* adds a 10 pixel margin to the bottom of the benefits section and aligns the text to the center of the box. */
 .benefits figure h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* sets the benefits section in block display, adding a 10 pixel margin around the images, and setting their max width to 150 pixels. */ 
 .benefits figure img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* gives the footer padding of 30 pixels, font, and aligns the text to center. */
 .footer {
     padding: 30px;
     clear: both;
@@ -121,6 +141,7 @@ p {
     text-align: center;
 }
 
+/* sets the font in the footer in the h2 tag to 20 pixels */
 .footer h2 {
     font-size: 20px;
 }
